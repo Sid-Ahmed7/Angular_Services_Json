@@ -1,0 +1,5 @@
+@for (item of cocktails; track item) {
+    <img [src]="item.imgUrl" alt="item.name">
+    <p>Nom du cocktail : {{item.name}}</p>
+    <p>Prix: {{item.price + '€'}}</p>
+}
